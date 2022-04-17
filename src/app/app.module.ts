@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserformComponent } from './userform/userform.component';
+import { SearchRepoComponent } from './search-repo/search-repo.component';
 
 
 
@@ -12,7 +13,8 @@ import { UserformComponent } from './userform/userform.component';
   declarations: [
     AppComponent,
     routingComponents,
-    UserformComponent
+    UserformComponent,
+    SearchRepoComponent
     
   ],
   imports: [

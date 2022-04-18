@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "16a8d1d8-f9a8-4a32-a2fd-83a0cae8f407"
+    "analytics": "bf7728cc-ef22-4eba-a87f-8c026e75e746"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "API_project": {
+    "quote_app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/api-project",
+            "outputPath": "dist/quote_app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "API_project:build:production"
+              "browserTarget": "quote_app:build:production"
             },
             "development": {
-              "browserTarget": "API_project:build:development"
+              "browserTarget": "quote_app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "API_project:build"
+            "browserTarget": "quote_app:build"
           }
         },
         "test": {
@@ -105,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "API_project"
+  "defaultProject": "quote_app"
 }

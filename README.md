@@ -1,29 +1,23 @@
-# Github Search App 
-
-A simple application that lists all the GitHub repositories of a given user / organization with Angular
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# API_project
+## description
+  This is an angular app that enables the user to search and view Github users and their Repositories
+## By Caren Chepkorir
+## SetUp instructions
+  * Network connection
+  * Ubuntu on your pc
+  * open the repo with your code editor
+  * open the app application using ng serve command
+## Dependencies
+  *Bootstrap 5
+  
+## Technologies used
+  1.HTML5
+  2.CSS
+  3.JavaScript
+  4.Typescript
+## Contact Information
+Feel free to call me or email me with respective contacts detail:
+  * Mobile number --+254742051755
+  * Gmail--karenkoech3@gmail.com
+## License and copyright information
+  MIT LICENSE  Copyright <2022> <CAREN CHEPKORIR>

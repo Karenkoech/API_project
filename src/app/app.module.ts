@@ -11,6 +11,7 @@ import { RepositoryComponent } from './repository/repository.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { DateCountPipe } from './date-count.pipe';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     RepositoryComponent,
     DashboardComponent,
     ProfileComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    DateCountPipe
     
   ],
   imports: [

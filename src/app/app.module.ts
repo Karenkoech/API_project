@@ -1,39 +1,35 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
-import { AppRoutingModule,  } from './app-routing.module';
+
 import { AppComponent } from './app.component';
-import { GitAppComponent } from './git-app/git-app.component';
-import { GitRepoComponent } from './git-repo/git-repo.component';
-import { GitRepocardComponent } from './git-repocard/git-repocard.component';
-import { RepodataComponent } from './repodata/repodata.component';
-import { RepositoryComponent } from './repository/repository.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ProfileComponent } from './profile/profile.component';
+import { AppRoutingModule } from './app-routing.module';
 import { RepositoriesComponent } from './repositories/repositories.component';
-import { DateCountPipe } from './date-count.pipe';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProfileComponent} from './profile/profile.component';
+import { RepoSearchService } from './repo-search.service';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GitAppComponent,
-    GitRepoComponent,
-    GitRepocardComponent,
-    RepodataComponent,
-    RepositoryComponent,
+    RepositoriesComponent,
     DashboardComponent,
     ProfileComponent,
-    RepositoriesComponent,
-    DateCountPipe
+    
     
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
-   
+    FormsModule
   ],
-  providers: [],
+  providers: [RepoSearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

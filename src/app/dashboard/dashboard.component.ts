@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+   
 
+  title = 'Github Repo Search';
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
